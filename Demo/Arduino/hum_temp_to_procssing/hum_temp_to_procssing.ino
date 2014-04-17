@@ -38,6 +38,6 @@ void loop(){
   Serial.print(",");
   Serial.println(DHT.temperature,1);
  
-  delay(100);
+  delay(1000);
 }
 
